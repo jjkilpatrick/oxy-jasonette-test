@@ -1,0 +1,61 @@
+{
+  "$jason": {
+    "head": {
+      "title": "Natural History Museum",
+      "actions": {
+        "$foreground": {
+          "type": "$reload"
+        },
+        "$pull": {
+          "type": "$reload"
+        }
+      }
+    },
+    "body": {
+      "header": {
+        "style": {
+          "background": "#ffffff"
+        }
+      },
+      "style": {
+        "background": "#ffffff",
+        "border": "none"
+      },
+      "sections": [
+        {
+          "items": [
+            {
+              "type": "vertical",
+              "style": {
+                "padding": "30",
+                "spacing": "20",
+                "align": "center"
+              },
+              "components": [
+                {
+                  "type": "label",
+                  "text": "Natural History Museum",
+                  "style": {
+                    "align": "center",
+                    "font": "HelveticaNeue",
+                    "size": "18"
+                  }
+                },
+                {
+                  "type": "label",
+                  "text": "This is a demo app, exploring the capabilities of Jasonette",
+                  "style": {
+                    "align": "center",
+                    "font": "HelveticaNeue",
+                    "padding": "30",
+                    "size": "14"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
